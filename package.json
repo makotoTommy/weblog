@@ -1,0 +1,19 @@
+{
+  "name": "weblog",
+  "version": "1.0.0",
+  "description": "weblog test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makotoTommy/weblog.git"
+  },
+  "author": "MAKOTO TOMITANI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makotoTommy/weblog/issues"
+  },
+  "homepage": "https://github.com/makotoTommy/weblog#readme"
+}
