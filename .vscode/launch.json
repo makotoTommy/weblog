@@ -1,0 +1,49 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // デバッグ構成
+            "type": "node",
+            "request": "launch",
+            "name": "プログラムの起動(dev)",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\app.js",
+            // 環境
+            "env": {
+                "NODE_ENV": "dev"
+            }
+        },
+        {
+            // デバッグ構成
+            "type": "node",
+            "request": "launch",
+            "name": "プログラムの起動(prod)",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\app.js",
+            // 環境
+            "env": {
+                "NODE_ENV": "prod"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Gulpタスク起動",
+            "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+            // 引数はなし
+            // "args": [
+            //     "task"
+            // ],
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        }
+    ]
+}
