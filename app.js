@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-// コンソールログを出力する
-console.log(process.env.NODE_ENV);
-=======
 const express = require("express");
 const app =express();
 
@@ -16,4 +12,3 @@ app.use("/", require("./routes/index.js"));
 
 console.log("Node ポート番号:3000 起動 ========== ");
 app.listen(3000);
->>>>>>> Stashed changes
